@@ -29,19 +29,12 @@ namespace Exercicio_OrientacaoObjeto
             data_compra =double.Parse(Console.ReadLine());        
         }
 
-        public override string ToString()
+        /*public override string ToString()
         {
-            if (escolha == 2)
-            {
-                Console.WriteLine("Nome:");
-                Console.WriteLine("CPF:");
-                Console.WriteLine("Data de nascimento:");
-                Console.WriteLine("Endereço:");
-                Console.WriteLine("Data de compra do veículo:");
-            }
+            
             return ("CPF: " + CPF + "\nNome: " + nome + "\nEndereço: \n" + endereco.ToString() + "\nData de nascimento: " + data_nascimento + "\n Data da compra do veiculo: " + data_compra);
             
-        }
+        }*/
     }
 }
 

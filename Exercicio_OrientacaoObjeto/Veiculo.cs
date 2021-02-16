@@ -41,10 +41,10 @@ namespace Exercicio_OrientacaoObjeto
 			Ano = int.Parse(Console.ReadLine());
 		}
 
-		public override string ToString()
+		/*public override string ToString()
 		{
 			return ("Renavan: " + Renavan + "\nChassis: " + Chassis + "\nPlaca: " + Placa + "\nMarca" + Marca + "\nModelo: " + Modelo + "\nCor: " + Cor + "\nAno: " + Ano);
-		}
+		}*/
 	}
 }
 
