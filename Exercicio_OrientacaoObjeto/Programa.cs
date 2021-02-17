@@ -43,7 +43,7 @@ namespace Exercicio_OrientacaoObjeto
 
                         Console.WriteLine("Informe os dados do veículo");
                         Console.Write("Renavan: ");
-                        string Renavan = Console.ReadLine();
+                        v.Renavan = Console.ReadLine();
                         Console.Write("Chassis: ");
                         v.Chassis = Console.ReadLine();
                         Console.Write("Placa: ");
