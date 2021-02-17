@@ -8,11 +8,11 @@ namespace Exercicio_OrientacaoObjeto
 {
     public class Veiculo
     {
-		public float Renavan { get; set; }
+		public string Renavan { get; set; }
 
-		public float Chassis { get; set; }
+		public string Chassis { get; set; }
 
-		public double  Placa { get; set; }
+		public string Placa { get; set; }
 
 		public string Marca { get; set; }
 
@@ -28,9 +28,9 @@ namespace Exercicio_OrientacaoObjeto
 			Console.Write("Renavan: ");
 			string Renavan = Console.ReadLine();
 			Console.Write("Chassis: ");
-			Chassis = float.Parse(Console.ReadLine());
+			Chassis = Console.ReadLine();
 			Console.Write("Placa: ");
-			Placa = double.Parse(Console.ReadLine());
+			Placa = Console.ReadLine();
 			Console.Write("Marca: ");
 			Marca = Console.ReadLine();
 			Console.Write("Modelo: ");

@@ -33,6 +33,7 @@ namespace Exercicio_OrientacaoObjeto
         /*public override string ToString()
         {
             
+            
             return ("CPF: " + CPF + "\nNome: " + nome + "\nEndereço: \n" + endereco.ToString() + "\nData de nascimento: " + data_nascimento + "\n Data da compra do veiculo: " + data_compra);
 
         }*/
