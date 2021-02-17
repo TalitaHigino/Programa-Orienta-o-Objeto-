@@ -26,7 +26,7 @@ namespace Exercicio_OrientacaoObjeto
 		{
 			Console.WriteLine("Informe os dados do veículo");
 			Console.Write("Renavan: ");
-			Renavan = float.Parse(Console.ReadLine());
+			string Renavan = Console.ReadLine();
 			Console.Write("Chassis: ");
 			Chassis = float.Parse(Console.ReadLine());
 			Console.Write("Placa: ");

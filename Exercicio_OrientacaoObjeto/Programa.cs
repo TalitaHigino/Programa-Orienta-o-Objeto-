@@ -12,16 +12,26 @@ namespace Exercicio_OrientacaoObjeto
         {
             Titular t = new Titular();
             Veiculo v = new Veiculo();
+            Endereço endereço = new Endereço();
             int escolha;
             do
             {
                 Console.WriteLine("############## ESCOLHA A AÇÃO ##############  \n\n");
-                Console.WriteLine("1)- Informe os dados do Proprietário e Automóvel: ");
-                Console.WriteLine("2)- Verificar os  dados cadastrados do Automóvel: ");
+                Console.WriteLine("1)- Informe os dados do Proprietário e do Automóvel: ");
+                Console.WriteLine("2)- Verificar os  dados cadastrados: ");
                 Console.WriteLine("3)- Finalizar o Programa : ");
                 Console.Write("Informe qual das operações deseja realizar: ");
                 escolha = int.Parse(Console.ReadLine());
 
+                try
+                {
+                    escolha = int.Parse(Console.ReadLine());
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Digite um Valor entre 1 e 3");
+                    
+                }
                 if (escolha == 2)
                 {
                     Console.WriteLine("Nome:");
@@ -29,11 +39,14 @@ namespace Exercicio_OrientacaoObjeto
                     Console.WriteLine("Data de nascimento:");
                     Console.WriteLine("Endereço:");
                     Console.WriteLine("Data de compra do veículo:");
+                    
                 }
                 else
                 {
-                    Console.WriteLine(escolha); 
+                    Console.WriteLine(escolha);
+                    
                 }
+            
                 switch (escolha)
                 {  // apenas as funções puxando a variavel 
                     case 1:
@@ -46,6 +59,7 @@ namespace Exercicio_OrientacaoObjeto
                         escolha = 0;
                         break;
                 }
+                
             } while (escolha != 3);
             
         }
@@ -62,7 +76,7 @@ namespace Exercicio_OrientacaoObjeto
             
             Console.WriteLine(t.ToString());
             Console.WriteLine(v.ToString());
-            Console.WriteLine("\n\nPrecione qualquer tecla para voltar ao menu...");
+            Console.WriteLine("\n\nPressione qualquer tecla para voltar ao menu...");
             Console.ReadKey();
         }
     }

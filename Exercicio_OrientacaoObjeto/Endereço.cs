@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Exercicio_OrientacaoObjeto
 {
-    class Endereço
+     public class Endereço
     {
+		
 		public string Logradouro { get; set; }
 		public int Numero { get; set; }
 		public string Localidade { get; set; }
@@ -15,6 +16,7 @@ namespace Exercicio_OrientacaoObjeto
 
 		public void LerDados()
 		{
+			Endereço endereço = new Endereço();
 			Console.Write("	Logradouro: ");
 			Logradouro = Console.ReadLine();
 			Console.Write("	Número: ");
@@ -22,11 +24,10 @@ namespace Exercicio_OrientacaoObjeto
 			Console.Write("	Localidade: ");
 			Localidade = Console.ReadLine();
 		}
-		public override string ToString()
+		/*public override string ToString()
 		{
 			return ("	Logradouro: " + Logradouro + "\n	Número: " + Numero + "\n	Localidade: " + Localidade);
-		}
+		}*/
 	}
 }
 
-//comentario 
