@@ -21,6 +21,7 @@ namespace Exercicio_OrientacaoObjeto
                 Console.WriteLine("2)- Verificar os  dados cadastrados: ");
                 Console.WriteLine("3)- Finalizar o Programa : ");
                 Console.Write("Informe qual das operações deseja realizar: ");
+                
                 escolha = int.Parse(Console.ReadLine());
 
                 try

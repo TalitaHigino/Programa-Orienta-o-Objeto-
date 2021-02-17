@@ -20,7 +20,7 @@ namespace Exercicio_OrientacaoObjeto
 
 		public string Cor { get; set; }
 
-		public int Ano { get; set; }
+		public string Ano { get; set; }
 
 		public void LerDados()
 		{
@@ -38,7 +38,7 @@ namespace Exercicio_OrientacaoObjeto
 			Console.Write("Cor: ");
 			Cor = Console.ReadLine();
 			Console.Write("Ano: ");
-			Ano = int.Parse(Console.ReadLine());
+			Ano = Console.ReadLine();
 		}
 
 		/*public override string ToString()
