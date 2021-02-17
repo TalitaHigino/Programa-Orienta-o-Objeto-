@@ -16,27 +16,23 @@ namespace Exercicio_OrientacaoObjeto
 
         public void LerDados()
         {
-            Console.WriteLine("Informe os dados da pessoais: ");
-            Console.Write("Nome Completo: ");
-            string nome = Console.ReadLine();
-            Console.Write("CPF : ");
-            string CPF = Console.ReadLine();
-            Console.Write("Data de Nasciemnto: ");
-            string data_nascimento = (Console.ReadLine());
-            Console.Write("Endereço: \n");
-            string endereco = Console.ReadLine();            
-            Console.Write("Data de compra do veículo: ");
-            string data_compra = (Console.ReadLine());
+            nome = nome;
+            CPF = CPF;  
+            data_nascimento = data_nascimento;
+            data_compra = data_compra;
+            endereco = endereco;
 
         }
 
-        /*public override string ToString()
+        public override string ToString()
         {
             
             
-            return ("CPF: " + CPF + "\nNome: " + nome + "\nEndereço: \n" + endereco.ToString() + "\nData de nascimento: " + data_nascimento + "\n Data da compra do veiculo: " + data_compra);
+            return ("CPF: " + CPF + "\nNome: " + nome + "\nEndereço: \n" + 
+                endereco.ToString() + "\nData de nascimento: " + data_nascimento + 
+                "\n Data da compra do veiculo: " + data_compra);
 
-        }*/
+        }
     }
 }
 

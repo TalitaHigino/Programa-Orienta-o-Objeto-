@@ -16,7 +16,7 @@ namespace Exercicio_OrientacaoObjeto
 
 		public void LerDados()
 		{
-			Endereço endereço = new Endereço();
+			
 			Console.Write("	Logradouro: ");
 			Logradouro = Console.ReadLine();
 			Console.Write("	Número: ");

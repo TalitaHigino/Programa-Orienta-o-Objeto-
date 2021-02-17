@@ -24,27 +24,21 @@ namespace Exercicio_OrientacaoObjeto
 
 		public void LerDados()
 		{
-			Console.WriteLine("Informe os dados do veículo");
-			Console.Write("Renavan: ");
-			string Renavan = Console.ReadLine();
-			Console.Write("Chassis: ");
-			Chassis = Console.ReadLine();
-			Console.Write("Placa: ");
-			Placa = Console.ReadLine();
-			Console.Write("Marca: ");
-			Marca = Console.ReadLine();
-			Console.Write("Modelo: ");
-			Modelo = Console.ReadLine();
-			Console.Write("Cor: ");
-			Cor = Console.ReadLine();
-			Console.Write("Ano: ");
-			Ano = Console.ReadLine();
+			Renavan = Renavan;
+			Chassis = Chassis;
+			Placa = Placa;
+			Marca = Marca;
+			Modelo = Modelo;
+			Cor = Cor;
+			Ano = Ano;
 		}
 
-		/*public override string ToString()
+		public override string ToString()
 		{
-			return ("Renavan: " + Renavan + "\nChassis: " + Chassis + "\nPlaca: " + Placa + "\nMarca" + Marca + "\nModelo: " + Modelo + "\nCor: " + Cor + "\nAno: " + Ano);
-		}*/
+			return ("Renavan: " + Renavan + "\nChassis: " + Chassis + 
+				"\nPlaca: " + Placa + "\nMarca" + Marca + "\nModelo: " + Modelo + "\nCor: " 
+				+ Cor + "\nAno: " + Ano);
+		}
 	}
 }
 
